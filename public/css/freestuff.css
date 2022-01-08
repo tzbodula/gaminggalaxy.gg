@@ -1,0 +1,276 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.streamingResources {
+    height: 450px;
+    background: #131213;
+}
+
+.switches {
+    text-align: center;
+}
+
+.header {
+    margin-top: 11%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: center;
+    z-index: 2;
+}
+
+.sectionName {
+    display: inline;
+    font-weight: bold;
+    font-size: clamp(3rem, 0.00075rem + 13.3vw, 7rem);
+}
+
+.sectionSubtitle {
+    display: block;
+    margin-top: 0rem;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+section 
+{
+    position: relative;
+    width: 100%;
+    height: clamp(20rem, 96.666vw, 49rem);
+    background: #130c18;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+section .row
+{
+    z-index: 1;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    font-size: 64px;
+    transform: rotate(-15deg);
+    flex-wrap: nowrap !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.icons:hover
+{
+    color: #ff87a3 !important;
+    text-shadow: 0 0 120px #ff87a3 !important;
+}
+
+.share:hover
+{
+    color: #ffffff !important;
+    text-shadow: 0 0 120px #ffffff !important;
+}
+
+.insta:hover
+{
+    color: #fcb103 !important;
+    text-shadow: 0 0 120px #fcb103 !important;
+}
+
+.twitter:hover 
+{
+    color: #2da6fc !important;
+    text-shadow: 0 0 120px #2da6fc !important;
+}
+
+.discord:hover 
+{
+    color: #5865F2 !important;
+    text-shadow: 0 0 120px #5865F2 !important;
+}
+
+.youtube:hover 
+{
+    color: #fc1c03 !important;
+    text-shadow: 0 0 120px #fc1c03 !important;
+}
+
+.twitch:hover 
+{
+    color: #6441a5 !important;
+    text-shadow: 0 0 120px #6441a5 !important;
+}
+
+.facebook:hover 
+{
+    color: #1403fc !important;
+    text-shadow: 0 0 120px #1403fc!important;
+}
+
+
+.reddit:hover 
+{
+    color: #fc8803 !important;
+    text-shadow: 0 0 120px #fc8803 !important;
+}
+
+.camera:hover 
+{
+    color: #fc0390 !important;
+    text-shadow: 0 0 120px #fc0390 !important;
+}
+
+
+.mic:hover 
+{
+    color: #00e0b0 !important;
+    text-shadow: 0 0 120px #00e0b0 !important;
+}
+
+.tiktok:hover 
+{
+    color: #fff !important;
+    text-shadow: 0 0 120px #fff !important;
+}
+
+.video:hover 
+{
+    color: #d1d1d1 !important;
+    text-shadow: 0 0 120px #d1d1d1 !important;
+}
+
+.photo-video:hover 
+{
+    color: #ffe20a !important;
+    text-shadow: 0 0 120px #ffe20a !important;
+}
+
+.hashtag:hover 
+{
+    color: #0aff12 !important;
+    text-shadow: 0 0 120px #0aff12 !important;
+}
+
+.heart:hover 
+{
+    color: #ff2b0a !important;
+    text-shadow: 0 0 120px #ff2b0a !important;
+}
+
+.follower:hover 
+{
+    color: #fff !important;
+    text-shadow: 0 0 120px #fff !important;
+}
+
+.steam:hover 
+{
+    color: #8969ff !important;
+    text-shadow: 0 0 120px #8969ff !important;
+}
+
+.comissions:hover 
+{
+    color: #00ff7b !important;
+    text-shadow: 0 0 120px #00ff7b !important;
+} 
+
+.money:hover 
+{
+    color: #adffd5 !important;
+    text-shadow: 0 0 120px #adffd5!important;
+}
+
+
+
+.background i
+{
+
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+    padding: 0 5px;
+    user-select: none;
+    cursor: default;
+}
+
+.background i:hover
+{
+    color: #0f0;
+    text-shadow: 0 0 120px #0f0;
+}
+
+section .row div
+{
+    animation: animate1 80s linear infinite;
+    animation-delay: -80s;
+}
+
+section .row div:nth-child(2)
+{
+    animation: animate2 80s linear infinite;
+    animation-delay: -40s;
+}
+
+@keyframes animate1 
+{
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animate2
+{
+    0%
+    {
+        transform: translateX(0%);
+    }
+    100%
+    {
+        transform: translateX(-200%);
+    }
+}
+
+section .row:nth-child(even) div
+{
+    animation: animate3 80s linear infinite;
+    animation-delay: -80s;
+}
+
+section .row:nth-child(even) div:nth-child(2)
+{
+    animation: animate4 80s linear infinite;
+    animation-delay: -40s;
+}
+
+@keyframes animate3 
+{
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animate4
+{
+    0%
+    {
+        transform: translateX(-200%);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+

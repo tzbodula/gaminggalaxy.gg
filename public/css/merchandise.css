@@ -1,0 +1,64 @@
+@font-face {
+    font-family: oxanium;
+    src: url("../fonts/Oxanium-Medium.ttf");
+}
+
+@font-face {
+    font-family: oxanium-bold;
+    src: url("../fonts/Oxanium-Bold.ttf");
+    font-weight: bold;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main {
+    background-color: #131213;
+}
+
+#smallText {
+    font-family: oxanium !important;
+}
+
+.header {
+    width: 2000px;
+    height:400px;
+    color: #131213;
+}
+
+.imageDisplay1 {
+    width: 2000px;
+    height:400px;
+    background-image: url(../img/headers/Merch-Offer-1.jpg);
+}
+
+.imageDisplay2 {
+    width: 2000px;
+    height:400px;
+    background-image: url(../img/headers/Merch-Offer-2.jpg);
+}
+
+.imageDisplay3 {
+    width: 2000px;
+    height:400px;
+    background-image: url(../img/headers/Merch-Offer-3.jpg);
+}
+
+
+.switches {
+    height: 450px;
+    background: #131213;
+}
+
+.switches {
+    text-align: center;
+}
+

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: oxanium;
+    src: url("../fonts/Oxanium-Medium.ttf");
+}
+
+@font-face {
+    font-family: oxanium-bold;
+    src: url("../fonts/Oxanium-Bold.ttf");
+    font-weight: bold;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header {
+    font-family: oxanium-bold;
+    background-image: url("../img/headers/Madden.jpg");
+    text-align:center;
+    line-height:400px;
+    height:400px;
+    font-size: clamp(3rem, -6rem + 40vw, 15rem);
+    color: white;
+    text-shadow: 1px 1px 12px rgba(33,14,9,1);
+}
+
+.switches {
+    height: 450px;
+    background: #131213;
+    text-align: center;
+}
+
+.subText {
+    font-size: 2rem;
+}
+
+
+

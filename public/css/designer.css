@@ -1,0 +1,73 @@
+.image-holder {
+    width: 1180px;
+    height: 110px;
+    z-index: 2;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.image-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-right: -40px;
+    left: 15px;
+    bottom: 95px;
+    z-index: 0;
+}
+
+.image-hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.image-hover:hover {
+    opacity: 1;
+}
+
+
+
+#twitch {
+    left: 600px;
+    z-index: 0;
+}
+
+#twitch:hover {
+    position: absolute;
+    z-index: 0;
+}
+
+#twitter {
+    left: 500px;
+    z-index: 0;
+}
+
+#youtube {
+    position: absolute;
+    z-index: 0;
+}
+
+#instagram {
+    position: absolute;
+    z-index: 0;
+}
+
+#tiktok {
+    position: absolute;
+    z-index: 0;
+}
+
+#facebook {
+    position: absolute;
+    z-index: 0;
+}
+
+
+#placeholder {
+    position: absolute;
+    z-index: 5;
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: oxanium;
+    src: url("../fonts/Oxanium-Medium.ttf");
+}
+
+@font-face {
+    font-family: oxanium-bold;
+    src: url("../fonts/Oxanium-Bold.ttf");
+    font-weight: bold;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#smallText {
+    font-family: oxanium !important;
+}
+
+.header {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100vw;
+}
+
+.headline {
+    color: #eeeeee;
+    font-size: clamp(3rem, -3.75rem + 15vw, 12rem);
+    mix-blend-mode: lighten;
+}
+
+@media (min-width: 280px) {
+    .header {
+        background-image: url('../img/headers/Silver-Mobile.jpg');
+        width: 100vw;
+        height: 190px;
+    }
+}
+
+@media (min-width: 760px) {
+    .header {
+        background-image: url('../img/headers/Silver-Tablet.jpg');
+        width: 100vw;
+        height: 320px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header {
+        background-image: url('../img/headers/Silver-Desktop.jpg');
+        width: 100vw;
+        height: 480px;
+    }
+}
+
+.switches {
+    height: 450px;
+    background: #131213;
+}
+
+.switches {
+    text-align: center;
+}
+
