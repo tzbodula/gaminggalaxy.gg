@@ -4972,6 +4972,15 @@ ul.minicart .cart-price .new {
 
 }
 
+.loginform {
+	text-align: center;
+	background-image: url('../img/bg/area_bg02.jpg');
+}
+
+.registrationform {
+	text-align: center;
+}
+
 #textsection {
 	margin-top: 140px;
 }
@@ -5011,4 +5020,55 @@ ul.minicart .cart-price .new {
 		opacity: 1;
 	}
 	
+}
+
+.ftco-section {
+	padding: 7em 0; }
+  
+.ftco-no-pt {
+	padding-top: 0; }
+  
+.ftco-no-pb {
+	padding-bottom: 0; }
+
+
+.social-content{
+	color: white !important;
+	font-size: 1.75rem;
+}	
+
+.btn-primary {
+	color: #ce4993;
+	background-color: #ce4993;
+	border-color: #eeaf61; }
+.btn-primary:hover {
+	color: #1c1121;
+	background-color: #ce4993;
+	border-color: #ce4993; }
+.btn-primary:focus, .btn-primary.focus {
+	  -webkit-box-shadow: 0 0 0 0.2rem #ce4993;
+	  box-shadow: 0 0 0 0.2rem #ce4993; }
+.btn-primary.disabled, .btn-primary:disabled {
+	  color: #1c1121;
+	  background-color: #ce4993;;
+	  border-color: #ce4993;; }
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+	  color: #1c1121;
+	  background-color: #ce4993;;
+	  border-color: #ce4993; }
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+	  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+	  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
+	  
+.field-icon 
+{
+	position: absolute;
+	right: 25px;
+	bottom: 66%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	color: #1c1121;
 }
