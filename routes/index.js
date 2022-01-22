@@ -1,5 +1,4 @@
 const express = require('express')
-const { UCS2_PERSIAN_CI } = require('mysql/lib/protocol/constants/charsets')
 const router = express.Router()
 
 const users = []
@@ -72,18 +71,6 @@ router.get('/galaxymerch', (req, res) => {
     res.render('galaxymerch')
 })
 
-router.get('/login', (req, res) => {
-    res.render('login')
-})
-
-router.get('/register', (req, res) => {
-    res.render('register')
-})
-
-
-router.get('/profile', (req, res) => {
-    res.render('profile')
-})
 
 
 module.exports = router
